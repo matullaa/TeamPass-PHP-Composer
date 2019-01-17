@@ -1,0 +1,33 @@
+{
+    "name": "imdcadm/imdc-dev-ops",
+    "description": "IMDC DevOps Guacamole",
+    "type": "library",
+    "require": {
+        "guzzlehttp/guzzle": "^6.3",
+        "guzzlehttp/guzzle-services": "^1.1",
+        "guzzlehttp/command": "^1.0",
+        "lib-openssl": "1.0.2.11",
+        "psr/log": "^1.0",
+        "gimler/guzzle-description-loader": "^0.0.4",
+        "slim/slim": "^3.11",
+        "zendframework/zend-diactoros": "^2.0",
+        "php-http/logger-plugin": "^1.0",
+        "php-http/cache-plugin": "^1.5",
+        "php-http/stopwatch-plugin": "^1.1"
+    },
+    "require-dev": {
+        "php-http/client-common": "^1.8"
+    },
+    "autoload": {
+        "psr-0": {
+            "IMDCDevOps": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Reynald GIL",
+            "email": "reynald.gil@saint-gobain.com"
+        }
+    ],
+    "minimum-stability": "beta"
+}
